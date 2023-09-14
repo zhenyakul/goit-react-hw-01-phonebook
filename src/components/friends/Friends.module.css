@@ -1,0 +1,44 @@
+@media screen and (min-width: 50px)
+{
+    .friendList{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0;
+    text-align: flex-start;
+    border: 1px black solid;
+    background-color: rgb(27, 27, 131);
+    flex-direction: column;
+}
+.friendList>li{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin: 5px 0px;
+    font-family: fantasy;
+    border: 1px solid black;
+    box-shadow: 1px 3px rgb(20, 18, 39);
+    background-color: rgb(80, 80, 166);
+}
+.statusTrue{
+    border: 1px solid black;
+    border-radius: 100%;
+    display: block;
+    min-width: 10px;
+    max-height: 10px;
+    color: rgba(80, 80, 166, 0);
+    margin: 20px 10px;
+    background-color: green;
+}
+.statusFalse{
+    border: 1px solid black;
+    border-radius: 100%;
+    display: block;
+    min-width: 10px;
+    max-height: 10px;
+    color: rgba(80, 80, 166, 0);
+    margin: 20px 10px;
+    background-color: red;
+}
+}
